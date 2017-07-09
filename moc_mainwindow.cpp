@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[53];
-    char stringdata0[1708];
+    QByteArrayData data[65];
+    char stringdata0[2114];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -81,7 +81,19 @@ QT_MOC_LITERAL(48, 1535, 34), // "on_importSudoersFileButton_cl..."
 QT_MOC_LITERAL(49, 1570, 32), // "on_installMainlineKernel_clicked"
 QT_MOC_LITERAL(50, 1603, 34), // "on_runGrubcustomizerButton_cl..."
 QT_MOC_LITERAL(51, 1638, 34), // "on_enableLockScreenlButton_cl..."
-QT_MOC_LITERAL(52, 1673, 34) // "on_disableLockScrennButton_cl..."
+QT_MOC_LITERAL(52, 1673, 34), // "on_disableLockScrennButton_cl..."
+QT_MOC_LITERAL(53, 1708, 39), // "on_showHiddenStartupItemsButt..."
+QT_MOC_LITERAL(54, 1748, 41), // "on_unshowHiddenStartupItemsBu..."
+QT_MOC_LITERAL(55, 1790, 33), // "on_enableLoginSoundButton_cli..."
+QT_MOC_LITERAL(56, 1824, 34), // "on_disableLoginSoundButton_cl..."
+QT_MOC_LITERAL(57, 1859, 38), // "on_openSudoersUbunsysModButto..."
+QT_MOC_LITERAL(58, 1898, 23), // "on_aptselect_US_clicked"
+QT_MOC_LITERAL(59, 1922, 23), // "on_aptselect_ES_clicked"
+QT_MOC_LITERAL(60, 1946, 32), // "on_openSourcesListButton_clicked"
+QT_MOC_LITERAL(61, 1979, 34), // "on_backupSourcesListButton_cl..."
+QT_MOC_LITERAL(62, 2014, 34), // "on_importSourcesListButton_cl..."
+QT_MOC_LITERAL(63, 2049, 31), // "on_openMainBackupButton_clicked"
+QT_MOC_LITERAL(64, 2081, 32) // "on_openMainRestoreButton_clicked"
 
     },
     "MainWindow\0on_actionNew_triggered\0\0"
@@ -133,7 +145,18 @@ QT_MOC_LITERAL(52, 1673, 34) // "on_disableLockScrennButton_cl..."
     "on_installMainlineKernel_clicked\0"
     "on_runGrubcustomizerButton_clicked\0"
     "on_enableLockScreenlButton_clicked\0"
-    "on_disableLockScrennButton_clicked"
+    "on_disableLockScrennButton_clicked\0"
+    "on_showHiddenStartupItemsButton_clicked\0"
+    "on_unshowHiddenStartupItemsButton_clicked\0"
+    "on_enableLoginSoundButton_clicked\0"
+    "on_disableLoginSoundButton_clicked\0"
+    "on_openSudoersUbunsysModButton_clicked\0"
+    "on_aptselect_US_clicked\0on_aptselect_ES_clicked\0"
+    "on_openSourcesListButton_clicked\0"
+    "on_backupSourcesListButton_clicked\0"
+    "on_importSourcesListButton_clicked\0"
+    "on_openMainBackupButton_clicked\0"
+    "on_openMainRestoreButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -143,7 +166,7 @@ static const uint qt_meta_data_MainWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      51,   14, // methods
+      63,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -151,59 +174,83 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,  269,    2, 0x08 /* Private */,
-       3,    0,  270,    2, 0x08 /* Private */,
-       4,    0,  271,    2, 0x08 /* Private */,
-       5,    0,  272,    2, 0x08 /* Private */,
-       6,    0,  273,    2, 0x08 /* Private */,
-       7,    0,  274,    2, 0x08 /* Private */,
-       8,    0,  275,    2, 0x08 /* Private */,
-       9,    0,  276,    2, 0x08 /* Private */,
-      10,    0,  277,    2, 0x08 /* Private */,
-      11,    0,  278,    2, 0x08 /* Private */,
-      12,    0,  279,    2, 0x08 /* Private */,
-      13,    0,  280,    2, 0x08 /* Private */,
-      14,    0,  281,    2, 0x08 /* Private */,
-      15,    0,  282,    2, 0x08 /* Private */,
-      16,    0,  283,    2, 0x08 /* Private */,
-      17,    0,  284,    2, 0x08 /* Private */,
-      18,    0,  285,    2, 0x08 /* Private */,
-      19,    0,  286,    2, 0x08 /* Private */,
-      20,    0,  287,    2, 0x08 /* Private */,
-      21,    0,  288,    2, 0x08 /* Private */,
-      22,    0,  289,    2, 0x08 /* Private */,
-      23,    0,  290,    2, 0x08 /* Private */,
-      24,    0,  291,    2, 0x08 /* Private */,
-      25,    0,  292,    2, 0x08 /* Private */,
-      26,    0,  293,    2, 0x08 /* Private */,
-      27,    0,  294,    2, 0x08 /* Private */,
-      28,    0,  295,    2, 0x08 /* Private */,
-      29,    0,  296,    2, 0x08 /* Private */,
-      30,    0,  297,    2, 0x08 /* Private */,
-      31,    0,  298,    2, 0x08 /* Private */,
-      32,    0,  299,    2, 0x08 /* Private */,
-      33,    0,  300,    2, 0x08 /* Private */,
-      34,    0,  301,    2, 0x08 /* Private */,
-      35,    0,  302,    2, 0x08 /* Private */,
-      36,    0,  303,    2, 0x08 /* Private */,
-      37,    0,  304,    2, 0x08 /* Private */,
-      38,    0,  305,    2, 0x08 /* Private */,
-      39,    0,  306,    2, 0x08 /* Private */,
-      40,    0,  307,    2, 0x08 /* Private */,
-      41,    0,  308,    2, 0x08 /* Private */,
-      42,    0,  309,    2, 0x08 /* Private */,
-      43,    0,  310,    2, 0x08 /* Private */,
-      44,    0,  311,    2, 0x08 /* Private */,
-      45,    0,  312,    2, 0x08 /* Private */,
-      46,    0,  313,    2, 0x08 /* Private */,
-      47,    0,  314,    2, 0x08 /* Private */,
-      48,    0,  315,    2, 0x08 /* Private */,
-      49,    0,  316,    2, 0x08 /* Private */,
-      50,    0,  317,    2, 0x08 /* Private */,
-      51,    0,  318,    2, 0x08 /* Private */,
-      52,    0,  319,    2, 0x08 /* Private */,
+       1,    0,  329,    2, 0x08 /* Private */,
+       3,    0,  330,    2, 0x08 /* Private */,
+       4,    0,  331,    2, 0x08 /* Private */,
+       5,    0,  332,    2, 0x08 /* Private */,
+       6,    0,  333,    2, 0x08 /* Private */,
+       7,    0,  334,    2, 0x08 /* Private */,
+       8,    0,  335,    2, 0x08 /* Private */,
+       9,    0,  336,    2, 0x08 /* Private */,
+      10,    0,  337,    2, 0x08 /* Private */,
+      11,    0,  338,    2, 0x08 /* Private */,
+      12,    0,  339,    2, 0x08 /* Private */,
+      13,    0,  340,    2, 0x08 /* Private */,
+      14,    0,  341,    2, 0x08 /* Private */,
+      15,    0,  342,    2, 0x08 /* Private */,
+      16,    0,  343,    2, 0x08 /* Private */,
+      17,    0,  344,    2, 0x08 /* Private */,
+      18,    0,  345,    2, 0x08 /* Private */,
+      19,    0,  346,    2, 0x08 /* Private */,
+      20,    0,  347,    2, 0x08 /* Private */,
+      21,    0,  348,    2, 0x08 /* Private */,
+      22,    0,  349,    2, 0x08 /* Private */,
+      23,    0,  350,    2, 0x08 /* Private */,
+      24,    0,  351,    2, 0x08 /* Private */,
+      25,    0,  352,    2, 0x08 /* Private */,
+      26,    0,  353,    2, 0x08 /* Private */,
+      27,    0,  354,    2, 0x08 /* Private */,
+      28,    0,  355,    2, 0x08 /* Private */,
+      29,    0,  356,    2, 0x08 /* Private */,
+      30,    0,  357,    2, 0x08 /* Private */,
+      31,    0,  358,    2, 0x08 /* Private */,
+      32,    0,  359,    2, 0x08 /* Private */,
+      33,    0,  360,    2, 0x08 /* Private */,
+      34,    0,  361,    2, 0x08 /* Private */,
+      35,    0,  362,    2, 0x08 /* Private */,
+      36,    0,  363,    2, 0x08 /* Private */,
+      37,    0,  364,    2, 0x08 /* Private */,
+      38,    0,  365,    2, 0x08 /* Private */,
+      39,    0,  366,    2, 0x08 /* Private */,
+      40,    0,  367,    2, 0x08 /* Private */,
+      41,    0,  368,    2, 0x08 /* Private */,
+      42,    0,  369,    2, 0x08 /* Private */,
+      43,    0,  370,    2, 0x08 /* Private */,
+      44,    0,  371,    2, 0x08 /* Private */,
+      45,    0,  372,    2, 0x08 /* Private */,
+      46,    0,  373,    2, 0x08 /* Private */,
+      47,    0,  374,    2, 0x08 /* Private */,
+      48,    0,  375,    2, 0x08 /* Private */,
+      49,    0,  376,    2, 0x08 /* Private */,
+      50,    0,  377,    2, 0x08 /* Private */,
+      51,    0,  378,    2, 0x08 /* Private */,
+      52,    0,  379,    2, 0x08 /* Private */,
+      53,    0,  380,    2, 0x08 /* Private */,
+      54,    0,  381,    2, 0x08 /* Private */,
+      55,    0,  382,    2, 0x08 /* Private */,
+      56,    0,  383,    2, 0x08 /* Private */,
+      57,    0,  384,    2, 0x08 /* Private */,
+      58,    0,  385,    2, 0x08 /* Private */,
+      59,    0,  386,    2, 0x08 /* Private */,
+      60,    0,  387,    2, 0x08 /* Private */,
+      61,    0,  388,    2, 0x08 /* Private */,
+      62,    0,  389,    2, 0x08 /* Private */,
+      63,    0,  390,    2, 0x08 /* Private */,
+      64,    0,  391,    2, 0x08 /* Private */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -316,6 +363,18 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 48: _t->on_runGrubcustomizerButton_clicked(); break;
         case 49: _t->on_enableLockScreenlButton_clicked(); break;
         case 50: _t->on_disableLockScrennButton_clicked(); break;
+        case 51: _t->on_showHiddenStartupItemsButton_clicked(); break;
+        case 52: _t->on_unshowHiddenStartupItemsButton_clicked(); break;
+        case 53: _t->on_enableLoginSoundButton_clicked(); break;
+        case 54: _t->on_disableLoginSoundButton_clicked(); break;
+        case 55: _t->on_openSudoersUbunsysModButton_clicked(); break;
+        case 56: _t->on_aptselect_US_clicked(); break;
+        case 57: _t->on_aptselect_ES_clicked(); break;
+        case 58: _t->on_openSourcesListButton_clicked(); break;
+        case 59: _t->on_backupSourcesListButton_clicked(); break;
+        case 60: _t->on_importSourcesListButton_clicked(); break;
+        case 61: _t->on_openMainBackupButton_clicked(); break;
+        case 62: _t->on_openMainRestoreButton_clicked(); break;
         default: ;
         }
     }
@@ -347,13 +406,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 51)
+        if (_id < 63)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 51;
+        _id -= 63;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 51)
+        if (_id < 63)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 51;
+        _id -= 63;
     }
     return _id;
 }
