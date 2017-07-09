@@ -1784,7 +1784,7 @@ void MainWindow::on_installSelectedPackagesButton_clicked()
 
     //171.shotwell
 
-    if (ui->checkBox_170->isChecked())
+    if (ui->checkBox_171->isChecked())
     {
         system("xterm -e bash -c '"
                "sudo ~/.ubunsys/downloads/ubuntupackages-master/apps1/171.shotwell"
@@ -1795,10 +1795,43 @@ void MainWindow::on_installSelectedPackagesButton_clicked()
 
     //172.acestream
 
-    if (ui->checkBox_170->isChecked())
+    if (ui->checkBox_172->isChecked())
     {
         system("xterm -e bash -c '"
                "sudo ~/.ubunsys/downloads/ubuntupackages-master/apps1/172.acestream"
+               " && "
+               "exit"
+               "; exec bash'");
+    }
+
+    //173.indicator-keylock
+
+    if (ui->checkBox_173->isChecked())
+    {
+        system("xterm -e bash -c '"
+               "sudo ~/.ubunsys/downloads/ubuntupackages-master/apps1/173.indicator-keylock"
+               " && "
+               "exit"
+               "; exec bash'");
+    }
+
+    //174.katoolin
+
+    if (ui->checkBox_174->isChecked())
+    {
+        system("xterm -e bash -c '"
+               "sudo ~/.ubunsys/downloads/ubuntupackages-master/apps1/174.katoolin"
+               " && "
+               "exit"
+               "; exec bash'");
+    }
+
+    //175.apt-select
+
+    if (ui->checkBox_175->isChecked())
+    {
+        system("xterm -e bash -c '"
+               "sudo ~/.ubunsys/downloads/ubuntupackages-master/apps1/175.apt-select"
                " && "
                "exit"
                "; exec bash'");
@@ -1982,6 +2015,9 @@ void MainWindow::on_unselectAllButton_clicked()
     ui->checkBox_170->setChecked(false);
     ui->checkBox_171->setChecked(false);
     ui->checkBox_172->setChecked(false);
+    ui->checkBox_173->setChecked(false);
+    ui->checkBox_174->setChecked(false);
+    ui->checkBox_175->setChecked(false);
 }
 
 void MainWindow::on_selectAllButton_clicked()
@@ -2157,6 +2193,9 @@ void MainWindow::on_selectAllButton_clicked()
     ui->checkBox_170->setChecked(true);
     ui->checkBox_171->setChecked(true);
     ui->checkBox_172->setChecked(true);
+    ui->checkBox_173->setChecked(true);
+    ui->checkBox_174->setChecked(true);
+    ui->checkBox_175->setChecked(true);
 }
 
 void MainWindow::on_loadSelectionButton_clicked()
@@ -2335,6 +2374,9 @@ void MainWindow::on_loadSelectionButton_clicked()
     ui->checkBox_170->setChecked(false);
     ui->checkBox_171->setChecked(false);
     ui->checkBox_172->setChecked(true);
+    ui->checkBox_173->setChecked(false);
+    ui->checkBox_174->setChecked(false);
+    ui->checkBox_175->setChecked(false);
 }
 
 //not implemented yet

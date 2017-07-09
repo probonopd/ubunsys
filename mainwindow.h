@@ -11,6 +11,7 @@
 #include <QtCore>
 #include <QDebug>
 #include <QSettings>
+//#include <Updater>
 
 namespace Ui {
 class MainWindow;
@@ -132,6 +133,30 @@ private slots:
     void on_enableLockScreenlButton_clicked();
 
     void on_disableLockScrennButton_clicked();
+
+    void on_showHiddenStartupItemsButton_clicked();
+
+    void on_unshowHiddenStartupItemsButton_clicked();
+
+    void on_enableLoginSoundButton_clicked();
+
+    void on_disableLoginSoundButton_clicked();
+
+    void on_openSudoersUbunsysModButton_clicked();
+
+    void on_aptselect_US_clicked();
+
+    void on_aptselect_ES_clicked();
+
+    void on_openSourcesListButton_clicked();
+
+    void on_backupSourcesListButton_clicked();
+
+    void on_importSourcesListButton_clicked();
+
+    void on_openMainBackupButton_clicked();
+
+    void on_openMainRestoreButton_clicked();
 
 private:
     Ui::MainWindow *ui;
