@@ -1,15 +1,15 @@
 [Desktop Entry]
-Name=ubunsys                                                                                                                                                                                                                                 
-Version=1.0                                                                                                                                                                                                                                  
-Exec=ubunsys                                                                                                                                                                                                                                
+Name=ubunsys
+Version=1.0
+Exec=ubunsys
 Comment=Software installer of a helpful package list, able to do changes on system configuration, updates, execute improves, fixes, executing actions to blow of mouse click.                                                                
-Icon=ubunsys                                                                                                                                                                                                                                 
-Type=Application                                                                                                                                                                                                                             
-Terminal=false                                                                                                                                                                                                                               
-StartupNotify=false                                                                                                                                                                                                                          
-Categories=Utility;                                                                                                                                                                                                                          
-GenericName=Installer & system configurer                                                                                                                                                                                                    
-Keywords=installer;apps;configure;                                                                                                                                                                                                           
-Name[en_GB]=ubunsys                                                                                                                                                                                                                          
-Name[en_US]=ubunsys                                                                                                                                                                                                                          
+Icon=ubunsys
+Type=Application
+Trminal=false                                                                                                                                                                                                                               
+StartupNotify=false
+Categories=Utility;
+GenericName=Installer & system configurer
+Keywords=installer;apps;configure;
+Name[en_GB]=ubunsys
+Name[en_US]=ubunsys
 Name[es_ES]=ubunsys
